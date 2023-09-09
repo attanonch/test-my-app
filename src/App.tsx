@@ -4,7 +4,7 @@ import "./App.css";
 import { add } from "./helper";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState("0");
   const handleIncrement = () => {
     setCount(count + 1);
   };
